@@ -13,7 +13,12 @@ function createGrid(n) {
       box.style.width = `${700 / n}px`;
       container.appendChild(box);
       box.addEventListener("mouseover", () => {
-        box.classList.add("hover-color");
+        // box.classList.add("hover-color");
+        let red = Math.floor(Math.random() * 256);
+        let green = Math.floor(Math.random() * 256);
+        let blue = Math.floor(Math.random() * 256);
+        // console.log(red + " " + green + " " + blue);
+        box.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
       });
     }
     container.classList.toggle("horizontal-grid");

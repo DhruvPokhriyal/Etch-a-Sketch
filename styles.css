@@ -13,7 +13,7 @@
 .horizontal-grid > div {
   height: 50px;
   width: 50px;
-  background-color: blue;
+  background-color: white;
   border: 1px solid black;
   flex: 1;
 }
@@ -25,9 +25,9 @@
   justify-content: center;
 } */
 
-.hover-color {
+/* .hover-color {
   background-color: red !important;
-}
+} */
 
 /* .horizontal-grid > div:hover {
   background-color: red;
