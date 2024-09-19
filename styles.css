@@ -19,3 +19,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.hover-color {
+  background-color: red;
+}
+
+/* .horizontal-grid > div:hover {
+  background-color: red;
+} */

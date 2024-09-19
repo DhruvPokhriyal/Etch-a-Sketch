@@ -6,6 +6,9 @@ for (let i = 0; i < 16; i++) {
   for (let j = 0; j < 16; j++) {
     let box = document.createElement("div");
     container.appendChild(box);
+    box.addEventListener("mouseover", () => {
+      box.classList.toggle("hover-color");
+    });
   }
   container.classList.toggle("horizontal-grid");
 }
