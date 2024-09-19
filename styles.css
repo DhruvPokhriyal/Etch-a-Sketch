@@ -20,10 +20,10 @@ body {
   justify-content: center;
 }
 
-/* .hover-color {
+.hover-color {
+  background-color: red !important;
+}
+
+/* .horizontal-grid > div:hover {
   background-color: red;
 } */
-
-.horizontal-grid > div:hover {
-  background-color: red;
-}
