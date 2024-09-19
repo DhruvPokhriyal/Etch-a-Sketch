@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: none;
+  padding: none;
 }
 
 .horizontal-grid {
@@ -53,7 +55,7 @@ body {
 .buttonDiv {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 .center-containers {
@@ -67,6 +69,13 @@ button {
   border-radius: 10%;
   text-decoration: none;
   border: none;
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  margin: none;
 }
