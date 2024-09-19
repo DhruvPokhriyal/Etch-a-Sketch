@@ -9,8 +9,8 @@ function createGrid(n) {
     console.log("i " + i);
     for (let j = 0; j < n; j++) {
       let box = document.createElement("div");
-      box.style.height = `${960 / n}px`;
-      box.style.width = `${960 / n}px`;
+      box.style.height = `${700 / n}px`;
+      box.style.width = `${700 / n}px`;
       container.appendChild(box);
       box.addEventListener("mouseover", () => {
         box.classList.add("hover-color");
