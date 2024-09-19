@@ -46,6 +46,8 @@ body {
   justify-content: center;
   width: 960px;
   height: 960px;
+  border: 10px black solid;
+  padding: 0;
 }
 
 .buttonDiv {
@@ -56,4 +58,5 @@ body {
 .center-containers {
   display: flex;
   justify-content: center;
+  padding: 0px;
 }
