@@ -18,29 +18,6 @@
   flex: 1;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .hover-color {
-  background-color: red !important;
-} */
-
-/* .horizontal-grid > div:hover {
-  background-color: red;
-} */
-
-/* html,
-body {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
-} */
-
 .containers {
   display: flex;
   flex-direction: column;

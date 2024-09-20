@@ -6,18 +6,18 @@ function createGrid(n) {
   for (let i = 0; i < n; i++) {
     let container = document.createElement("div");
     containers.appendChild(container);
-    console.log("i " + i);
+
     for (let j = 0; j < n; j++) {
       let box = document.createElement("div");
       box.style.height = `${700 / n}px`;
       box.style.width = `${700 / n}px`;
+
       container.appendChild(box);
       box.addEventListener("mouseover", () => {
-        // box.classList.add("hover-color");
         let red = Math.floor(Math.random() * 256);
         let green = Math.floor(Math.random() * 256);
         let blue = Math.floor(Math.random() * 256);
-        // console.log(red + " " + green + " " + blue);
+
         box.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
       });
     }
